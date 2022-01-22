@@ -178,6 +178,26 @@ img{
     margin-top: 0.5rem;
 }
 
+.div-button-bluebox{
+    display: flex;
+    justify-content: center;
+}
+
+.bluebox{
+    width: 75%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    height: 1.7rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.bluebox:hover{
+    cursor: pointer;
+}
+
 .left-main{
     background: linear-gradient(0.25turn, #63c8d1,#8EDDCA);
     display: flex;
@@ -198,15 +218,3 @@ img{
     font-size: 0.8rem;
 }
 
-.div-animation-khati{
-    width: 51%;
-
-    border: 1px solid black;
-    margin-right: 26rem;
-    background-color: black;
-    animation-name: ali;
-    animation-duration: 5s;
-    
-  
-    
-}
