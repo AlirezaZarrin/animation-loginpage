@@ -198,13 +198,31 @@ img{
     cursor: pointer;
 }
 
+.div-inputcheckbox{
+    display: flex;
+    width: 89%;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.text-checkbox{
+    margin-right: 1rem;
+    font-size: 0.6rem;
+    color: #B7B6B7;
+}
+
 .left-main{
     background: linear-gradient(0.25turn, #63c8d1,#8EDDCA);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
+
+}
+
+.input-checkbox{
+    width: 0.5rem;
+    margin-right: 0.7rem;
 }
 
 .icon-animation{
