@@ -26,12 +26,18 @@ footer{
 .left-main{
     height: 100%;
     width: 55%;
+    background: linear-gradient(0.25turn, #63c8d1,#8EDDCA);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
 }
 
 .right-main{
     height: 100%;
     width: 45%;
-    background-color: #E3E1E2;
+    background-color: #feffff91;
 }
 
 .div-button{
@@ -46,7 +52,7 @@ footer{
     color: #706DF6;
     outline: none;
     border: none;
-    background-color: #E3E1E2;
+    background-color: white;
 
 }
 
@@ -99,7 +105,7 @@ h1{
     border-top: none;
     border-left: none;
     border-right: none;
-    background-color: #E3E1E2;
+    background-color: #feffff91;
     margin-top: 3rem;
     margin-left: 4rem;
     outline: none;
@@ -129,7 +135,7 @@ h1{
     border-top: none;
     border-left: none;
     border-right: none;
-    background-color: #E3E1E2;
+    background-color: #feffff91;
     margin-top: 1.5rem;
     margin-left: 4rem;
     outline: none;
@@ -170,7 +176,7 @@ img{
     border-right: none;
     border-top: none;
     outline: none;
-    background-color: #E3E1E2;
+    background-color: #feffff91;
     outline: none;
     border-color: #B7B6B7;
     width: 21.7rem;
@@ -211,19 +217,12 @@ img{
     color: #B7B6B7;
 }
 
-.left-main{
-    background: linear-gradient(0.25turn, #63c8d1,#8EDDCA);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
-}
 
 .input-checkbox{
     width: 0.5rem;
     margin-right: 0.7rem;
 }
+
 
 .icon-animation{
     font-size: 6rem;
@@ -236,3 +235,26 @@ img{
     font-size: 0.8rem;
 }
 
+
+.animation-khati{
+    width: 65%;
+    height: 0;
+    border: 1px solid #ffffff62;
+    background-color: #feffff91;
+    position: absolute;
+    top: 22.5rem;
+    margin-right: 35rem;
+    animation-name: khati;
+    animation-duration: 8s;
+    transform-origin: right;
+    box-shadow: 30px 30px 50px 10px #feffff91;
+    animation-iteration-count: infinite;    
+    animation-timing-function: linear;
+}
+
+
+@keyframes khati{
+    100%{
+        transform: rotate(360deg);
+    }
+}
