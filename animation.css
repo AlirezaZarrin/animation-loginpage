@@ -236,21 +236,6 @@ img{
 }
 
 
-.animation-khati{
-    width: 35rem;
-    height: 0;
-    border: 1px solid #ffffff62;
-    background-color: #feffff91;
-    position: absolute;
-    top: 22.5rem;
-    margin-right: 35rem;
-    animation-name: khati;
-    animation-duration: 8s;
-    transform-origin: right;
-    box-shadow: 30px 30px 50px 10px #feffff91;
-    animation-iteration-count: infinite;    
-    animation-timing-function: linear;
-}
 
 
 @keyframes khati{
