@@ -1,0 +1,18 @@
+@media only screen and (max-width:450px) {
+    main{
+        display: block
+    }
+    
+    .left-main{
+        width: 100%;
+        position: relative;
+        display: flex;
+    }
+
+    .div-animation-khati{
+        position: absolute;
+        bottom: 7rem;
+       
+    }
+    
+}
