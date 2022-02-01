@@ -39,18 +39,25 @@
     }
 
     .div-h1{
-        
+        margin-left: 2rem;
+
     }
+
     h1{
-        font-size: 1.5rem
+        font-size: 1.5rem;
     }
 
     .div-input1{
+        margin-top: 1rem;
         margin-bottom: 4rem;
         width: 80%;
     }
     .input-1{
         width: 100%;
+    }
+
+    .placeholder::placeholder{
+        text-align: right;
     }
 
     .animation-dayere1{
@@ -115,14 +122,23 @@
             width: 30rem;
             height: 13rem;
         }
-    }
+    }  
     
     
     
+}
+
+.input-3{
+    width: 12rem;
     
-   
-         
-    
-    
-    
+}
+
+.div-button-bluebox{
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+
+}
+
+.img-responsive{
+    margin-top: 2.5rem;
 }
